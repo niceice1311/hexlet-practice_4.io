@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+ <form action="#">
+    
+  <fieldset> <legend>Информаця о пользователе</legend>
+    <label for="nameID">Имя</label>
+    <input id="nameID" type="text" name="username" placeholder="Введите имя">
+</fieldset>
+
+    <FIeldset><label for="famelID">Фамилия</label>
+    <input id="famelID" type="text" name="famel" placeholder="Введите Фамилию">
+</FIeldset>
+<FIeldset>
+    <label for="passwordID">Пароль</label>
+    <input id="passwordID" type="password" name="password" placeholder="Введите пароль">
+</FIeldset>
+    
+    
+    <fieldset>
+        <legend>Выбор пола</legend>
+        <label for="maleID">Мужской</label>
+        <input id="maleID" type="radio" name="gender" value="male">
+
+        <label for="maleID">Женский</label>
+        <input id="maleID" type="radio" name="gender" value="female">
+    </fieldset>
+    <fieldset>
+        <legend>Выбор продукта</legend>
+
+        <label for="eatID">Пицца</label>
+        <input id="eatID" type="checkbox" name="pizza" value="pizza">
+
+        <label for="eat2ID">Роллы</label>
+        <input id="eat2ID" type="checkbox" name="rolls" value="rolls">
+
+        <label for="eat3ID">Паста</label>
+        <input id="eat3ID" type="checkbox" name="pasta" value="pasta">
+    </fieldset>
+    <fieldset>
+        <select name="category">
+            <option value="sale">Скидка</option>
+            <option value="noSale">Нет скидки</option>
+        </select>
+    </fieldset>
+    <button type="button">Отправить</button>
+ </form>
+</div>
+</body>
+</html>
